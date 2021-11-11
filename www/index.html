@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <title>Plugin</title>
+</head>
+
+<body>
+    <div data-role="page">
+        <div data-role="header">
+           <h1>RentalZ</h1> 
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <button id="btn-cordova-confirm">Cordova Confirm</button>
+            <h1>Click Here</h1>
+            <button id="btn-cordova-beep">Cordova Notification</button>
+            <button id="btn-cordova-vibrate">Cordova Vibrate</button>
+
+            <br>
+            <h1>Take Picture</h1>
+            <button id="btn-take-picture" class="ui-btn ui-corner-all ui-btn-b">Take Picture</button>
+            <button id="btn-take-qrcode" class="ui-btn ui-corner-all ui-btn-b">Take QR Code</button>
+
+            <br>
+
+            <img src="" width="100%" id="img-01">
+        </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
